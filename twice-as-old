@@ -1,0 +1,5 @@
+const twiceAsOld = (dadYearsOld, sonYearsOld) =>
+  Math.abs(dadYearsOld - sonYearsOld * 2)
+
+// Function Export
+module.exports = twiceAsOld
