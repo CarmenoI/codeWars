@@ -1,0 +1,9 @@
+function hero(bullets, dragons){
+//takes 2 bullets to kill 1 dragon
+//if our hero sees 3 drag he needs 6 bullets
+//5 drag 10 bullets
+if (bullets>=dragons*2){
+return true
+}
+return false
+}
